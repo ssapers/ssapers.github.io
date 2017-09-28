@@ -130,7 +130,7 @@
         align-self: center;
     }
 
-    .tri {
+    .triagle {
         width: 0;
         height: 0;
         border-style: solid;
@@ -139,7 +139,7 @@
         margin: 0 auto;
     }
 
-    .tri1 {
+    .triagle1 {
         width: 0;
         height: 0;
         border-style: solid;
@@ -149,11 +149,11 @@
 
     }
 
-    #tri2 {
+    #triagle2 {
         background: #A9A9F4;
     }
 
-    .tri2 {
+    .triagle2 {
 
         width: 0;
         height: 0;
@@ -164,11 +164,11 @@
 
     }
 
-    #tri3 {
+    #triagle3 {
         background: #7575C6;
     }
 
-    .tri3 {
+    .triagle3 {
         width: 0;
         height: 0;
         border-style: solid;
@@ -187,11 +187,11 @@
         height: 334px;
     }
 
-    .startri {
+    .startriagle {
         background: #fafafa;
     }
 
-    .startri1 {
+    .startriagle1 {
         background: #fafafa;
     }
 

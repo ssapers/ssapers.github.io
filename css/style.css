@@ -177,15 +177,6 @@
         margin: 0 auto;
     }
 
-    #youtube {
-        width: 350px;
-        height: 284px;
-    }
-
-    #youtube:hover {
-        width: 400px;
-        height: 334px;
-    }
 
     .startriagle {
         background: #fafafa;

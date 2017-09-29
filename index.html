@@ -6,13 +6,18 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <title>Владислав Журавлев</title>
 </head>
 <body>
 
+    <div id="page_preloader">
+    <div class="cirtext">
+        <span class="circles_anm"></span>
+        <br><p>Подождите <br> идет загрузка</p></div>
+    </div>
 
     <header id="font">
-        
         <div class="myfoto2" id="openfoto"><img src="images/face_mob-min.jpg" alt="foto2" height="200" width="200"></div>
             <div class="column" >
                 <h1>Владислав Журавлев <a href="https://vk.com/ssapers" id="vk"> <i class="fa fa-vk"></i></a></h1>
@@ -30,7 +35,7 @@
             <p class="exp">Проходил различные видео-уроки </br>на Youtube по HTML/CSS/JS</p>
         </div>
         <div id="ipyou"><img src="images/IPhone_youtube-min.png" alt height="300" width="148"></div>
-        <div id="mon_you"><img src="images/mon_you-min.png" alt="youtube"></div>
+        <div id="mon_you"><img src="images/mon_you-min.png" alt="youtube" class="hvr-grow"></div>
     </section>
 
     <section id="triagle3">
@@ -74,6 +79,12 @@
         </div>
     </section>
 
-
+    <script type="text/javascript">
+        $(window).on('load', function () {
+        var $preloader = $('#page_preloader'),
+            $circles_anm  = $preloader.find('.circles_anm');
+        $preloader.delay(1200).fadeOut('slow');
+        });
+    </script>
 </body>
 </html>
